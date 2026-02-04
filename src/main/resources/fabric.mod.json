@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "biomelocator",
+  "version": "1.0.0",
+  "name": "Biome Locator",
+  "description": "Client-side biome finder for Minecraft 1.21.4",
+  "authors": ["Undergrounde"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.undergrounde.biomelocator.BiomeLocatorMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
